@@ -1,0 +1,130 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font:90% calibri,sans-serif;
+    text-align: center;
+}
+#header{
+    background-color: wheat;
+}
+div#header h1{
+    height:80px;
+    line-height:80px;
+    margin:0;
+    padding-left:10px;
+
+}
+#container{
+    height:auto;
+    margin:0 auto;
+    
+}
+#wrapper{
+    float:inline-start;
+    width:1000px;
+    font-size:large;
+    padding-left: 300px;
+    padding-top: 150px;
+}
+#wrapper p{
+    line-height:1.5;
+    float: left;
+
+    
+}
+#navi{
+    margin:45px;
+    line-height: 4;
+    padding: 10px;;
+    text-align: left;;
+    float:left;
+    height:1300px;
+    width:200px;
+    background-color: rgb(187, 148, 176);
+}
+a{
+    padding:5px;
+    text-decoration:none;
+    color: black;
+}
+#navi ul{
+    margin-left:10px;
+    list-style-type:none;
+    text-align: left;
+}
+#navi li{
+    margin-bottom:5px;
+}
+#footer{
+    clear:both;
+    width:100%;
+}
+a:hover{
+    color:greenyellow;
+}
+#topnavi{
+    overflow: hidden;
+    background-color: rgb(113, 171, 228);
+    float:right;
+    padding:15px;
+    line-height: 40px;
+    margin:50px;
+    font: 200;
+}
+#topnavi a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-bottom: 10px;
+  }
+#topnavi input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+#wrapper input[type=text] {
+    padding: 3px;
+    margin-top: 8px;
+    margin-right: 10px;
+    font-size: 12px;
+    transition: transform 0.3s ease-in-out;
+  }
+  #wrapper:hover input{
+    transform: scale(1.2);
+  }
+ 
+  #column {
+    float: left;
+    padding: 4px;
+    width:20%;
+    padding-top: 100px;
+    border-image-width: 10px;
+    align-items: start;
+    
+  }
+  #column img{
+    transition: transform 0.3s ease-in-out;
+    image-rendering: crisp-edges;
+    image-orientation:from-image;
+    
+  }
+  #column:hover img{
+    transform:scale(1.2);
+  }
+  #hidden{
+    display:none;
+  }
+  
+  
+  
+ 
+  
